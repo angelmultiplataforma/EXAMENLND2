@@ -1,0 +1,185 @@
+:root{
+
+--rojo: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--VeryDarkBlue: hsl(234, 12%, 34%);
+--GrayishBlue: hsl(229, 6%, 66%);
+--VeryLightGray: hsl(0, 0%, 98%);
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+
+
+html{
+    
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
+
+body{
+
+    width: 17rem;
+    margin: auto;
+}
+
+
+.parrafo1{
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.titulo1{
+   font-size: 20px;
+   color: var(--GrayishBlue);
+   text-align: center;
+   
+   
+}
+.titulo2{
+    font-size: 20px;
+    color: var(--VeryDarkBlue);
+    text-align: center;
+
+}
+
+h2{
+    font-size: 15px;
+    color: var(--VeryDarkBlue);
+
+}
+
+p{
+    font-size: 12px;
+    color: var(--GrayishBlue);
+    
+}
+
+
+
+/*ICONOS*/
+
+.lupa, .casa, .bombilla, .monitor{
+    margin-left: 12rem;
+}
+
+
+
+/*CUADROS*/
+
+.contenedor{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.supervisor {
+   padding: 1rem;
+   border: 1px solid black;
+   border-radius: 5%;
+   margin-top: 1rem;
+   border-top: 4px solid var(--Cyan);
+   line-height: 1.3rem;
+
+}
+.teambuilder{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 1rem;
+    border-top: 4px solid var(--rojo);
+    line-height: 1.3rem;
+}
+
+.karma{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 1rem;
+    border-top: 4px solid var(--Orange);
+    line-height: 1.3rem;
+}
+
+.calculator{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 4px solid var(--Blue);
+    line-height: 1.3rem;
+}
+
+
+
+
+
+@media (min-width:768px){
+
+header{
+
+   width: 18rem; 
+   margin: auto;
+}
+
+body{
+    
+    width: 60rem;
+    margin: auto;
+}
+
+
+
+.contenedor{
+    margin-left: 2rem;
+    display: flex;
+    
+}
+
+.supervisor{
+ margin-top: 8rem;
+ height: 10rem;
+ margin-right: 1rem;
+ width: 15rem;
+ margin-left: 1rem;
+ 
+}
+
+.teambuilder{
+    width: 15rem;
+}
+
+.calculator{
+ margin-left:1rem ;
+ margin-top: 8rem;
+ height: 10rem;
+ margin-right: 1rem;
+ width: 15rem;
+}
+
+.karma{
+    width: 15rem;
+}
+
+.grupo{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+.lupa, .casa, .bombilla, .monitor{
+    margin-left: 10rem;
+}
+
+
+}
+
+
+
+
